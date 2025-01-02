@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+* {
+  cursor: none;
+}
+
+.test {
+  @apply font-poppins;
+}
+
+.custom-padding {
+  @apply px-10 2xl:px-14;
+}
+
+.custom-padding2 {
+  @apply px-10 xl:px-32 2xl:px-56;
+}
+
+.custom-margin {
+  @apply py-44 xl:py-80;
+}
+
+.responsive-color {
+  @apply bg-[url('https://dummyimage.com/300x300/ef4444/fff.png&text=ALL')] md:bg-[url('https://dummyimage.com/300x300/3b83f6/fff.png&text=MD')] lg:bg-[url('https://dummyimage.com/300x300/22c55e/fff.png&text=LG')] xl:bg-[url('https://dummyimage.com/300x300/a855f7/fff.png&text=XL')] 2xl:bg-[url('https://dummyimage.com/300x300/f97316/fff.png&text=2XL')];
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.title-style {
+  @apply text-4xl tracking-tight md:text-5xl lg:text-7xl xl:text-[4.5rem] xl:leading-[5rem] 2xl:w-2/3 2xl:text-[5.5rem] 2xl:leading-[6rem];
+}
+
+.global-dark-mode {
+  @apply bg-white;
+}
+
+.title-dark-mode {
+  @apply text-[#111414];
+}
+/* ^^^ text-[#111414] */
+.subtitle-dark-mode {
+  @apply text-[#3d4343];
+}
+
+.light-background {
+  @apply bg-neutral-100;
+}
+/* ^^^ bg-neutral-200/50 */
+.light-background-2 {
+  @apply bg-neutral-200/50;
+}
+/* ^^^ bg-neutral-100 */
+
+@layer components {
+  .scrolldown {
+    animation: bounce 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -30px, 0);
+    }
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+  }
+
+  .imageanim {
+    animation: imageanim2 6s ease-in-out infinite;
+    -webkit-animation: imageanim2 6s ease-in-out infinite;
+  }
+
+  @keyframes imageanim2 {
+    0%,
+    100% {
+      transform: rotate(360deg);
+      opacity: 0.8;
+    }
+    50% {
+      transform: rotate(220deg);
+      opacity: 0.5;
+    }
+  }
+}

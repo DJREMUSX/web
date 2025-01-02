@@ -1,0 +1,74 @@
+var _defs, _circle, _circle2, _circle3, _circle4, _path, _path2, _path3, _path4, _path5, _path6, _path7, _path8, _path9;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgLogowhite2(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "LOGOURI",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 500 129.58",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, ".cls-1{fill:#fff;}"))), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 114.64,
+    cy: 39.02,
+    r: 8.63,
+    transform: "translate(-1.22 3.79) rotate(-1.88)"
+  })), _circle2 || (_circle2 = /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 99.69,
+    cy: 17.49,
+    r: 6.13,
+    transform: "matrix(1, -0.03, 0.03, 1, -0.52, 3.28)"
+  })), _circle3 || (_circle3 = /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 86.44,
+    cy: 43.09,
+    r: 8.4,
+    transform: "translate(-1.37 2.86) rotate(-1.88)"
+  })), _circle4 || (_circle4 = /*#__PURE__*/React.createElement("circle", {
+    className: "cls-1",
+    cx: 67.96,
+    cy: 14.37,
+    r: 14.36,
+    transform: "translate(-0.42 2.14) rotate(-1.8)"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M40.71,14.78a9.43,9.43,0,0,1-3.23,12.94,6.77,6.77,0,0,1-.65.36,6.28,6.28,0,0,1-.59.27A49.83,49.83,0,0,1,22.63,32a2.78,2.78,0,0,1-.85.1,6.48,6.48,0,0,1-5.11-10.77l.06,0a61,61,0,0,1,10-9,9.12,9.12,0,0,1,.84-.62l.2-.12A9.44,9.44,0,0,1,40.71,14.78Z"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M125.31,71.07a21.13,21.13,0,0,1,.75,14.76,20.48,20.48,0,0,1-.83,2.2A64.76,64.76,0,0,1,11.69,101.92a5.24,5.24,0,0,1-.48-.69l0,0a6.5,6.5,0,0,1,2.39-8.83,6.17,6.17,0,0,1,3.1-.85,2.48,2.48,0,0,1,.61,0,111.41,111.41,0,0,0,56.29-15A112.25,112.25,0,0,0,90.41,64.61a.42.42,0,0,1,.15-.12c.72-.64,1.45-1.25,2.15-1.92a21,21,0,0,1,4.62-2.7A21.31,21.31,0,0,1,125.31,71.07Z"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M67,47.54A18.66,18.66,0,0,1,57.22,72a99.69,99.69,0,0,1-37.09,8.1l-1.24,0c-.45,0-.86,0-1.3,0a18.66,18.66,0,0,1,.3-37.27l.55,0,.94,0A62.77,62.77,0,0,0,42.5,37.79l.06,0,0,0A18.68,18.68,0,0,1,67,47.54Z"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M187.88,97.19q-13,0-20-5.75t-7.14-16H175q.09,5.74,3.36,8c2.17,1.51,5.53,2.26,10.05,2.26q10.54,0,10.54-7.14a5.2,5.2,0,0,0-2.31-4.66c-1.53-1-4.48-1.93-8.84-2.74l-5-1Q162,66.71,162,50.77a16.16,16.16,0,0,1,6.31-13.41q6.31-5,17.9-5,12.36,0,18.89,5.22t7,15H198.16c-.18-3-1.18-5.22-3-6.62s-4.71-2.09-8.66-2.09q-9.5,0-9.49,6.27A5.52,5.52,0,0,0,179.3,55c1.54,1.11,4.28,2,8.23,2.79l5.23,1q11.24,2,16.33,6.48t5.09,12.41q0,9.5-7,14.55T187.88,97.19Z"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M220.36,33.79h28.22q10.71,0,16.81,5.62t6.09,15.28q0,9.66-6.09,15.28t-16.81,5.62h-13.5V95.8H220.36Zm14.72,29.35h12.54A9.68,9.68,0,0,0,254.37,61a8,8,0,0,0,2.4-6.27,8,8,0,0,0-2.44-6.27,9.73,9.73,0,0,0-6.71-2.18H235.08Z"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M292.91,33.79V82.65H321.3V95.8H278.19v-62Z"
+  })), _path7 || (_path7 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M386.53,95.8H370.94L367.28,85H341.5l-3.57,10.8H322.86l22.82-62h17.51ZM349.17,62.09l-3.58,10.63H363.1l-3.57-10.63q-1.66-4.7-5.23-15.67Q349.7,60.61,349.17,62.09Z"
+  })), _path8 || (_path8 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M413.17,97.19q-13,0-20-5.75t-7.14-16h14.29q.07,5.74,3.35,8t10.06,2.26q10.53,0,10.53-7.14a5.22,5.22,0,0,0-2.3-4.66c-1.54-1-4.49-1.93-8.84-2.74l-5-1q-20.73-3.48-20.73-19.42a16.16,16.16,0,0,1,6.31-13.41q6.31-5,17.9-5,12.36,0,18.9,5.22t7,15H423.45c-.17-3-1.17-5.22-3-6.62s-4.72-2.09-8.67-2.09q-9.5,0-9.49,6.27A5.52,5.52,0,0,0,404.6,55c1.53,1.11,4.28,2,8.23,2.79l5.22,1q11.24,2,16.33,6.48t5.1,12.41q0,9.5-7,14.55T413.17,97.19Z"
+  })), _path9 || (_path9 = /*#__PURE__*/React.createElement("path", {
+    className: "cls-1",
+    d: "M485.28,57.48V33.79H500v62H485.28V70.71h-24.9V95.8H445.66v-62h14.72V57.48Z"
+  })));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgLogowhite2);
+export default __webpack_public_path__ + "static/media/logowhite2.97255fe4ff5395ba354c4d9cc36b3ad7.svg";
+export { ForwardRef as ReactComponent };
